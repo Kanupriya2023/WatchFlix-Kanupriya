@@ -1,0 +1,45 @@
+.category-box{
+    width:100vw;
+    gap:30px;
+    background-color: #1a1a1d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px;}
+
+.category-img-container{
+    
+flex-shrink: 0;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-img{
+    width: 19.8vw;
+    height: 42.3vh;
+    flex-shrink: 0;
+    border-radius: 4.343px;
+    opacity: 0.45;
+    background: #131313;
+    backdrop-filter: blur(89.37886047363281px);
+    object-fit: cover;
+}
+
+.category-img:hover{
+    scale: 1.2;
+}
+
+#category-text{
+    position:absolute;
+    color: #FFF;
+    font-family: Overpass;
+    font-size: 11.58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.347px;
+}

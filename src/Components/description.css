@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+.desc{
+    
+    height:60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:5px;
+    position:absolute;
+    top:291px;
+    left:50px;
+}
+
+.firstBox{
+    width: 90vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 20px; */
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    
+    /* top:0; //58.5% */
+ }
+
+.imagePopup{
+    padding: 20px;
+}
+#movie{
+    color: #FFF;
+    width: 70vw;
+    
+    font-family: Oswald;
+    font-size: 40px;
+    /* font-style: normal;
+    font-weight: 700;
+     */
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* background-color: bisque; */
+}
+.Boxx{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    gap:5px;
+height: 25px;
+flex-shrink: 0;
+align-items: center;
+}
+
+.watchButton1{
+border:none;
+width:65px;
+height: 65px;
+background-color: #DA3714;
+border-radius: 50%;
+
+color: #FFF;
+
+}
+.watchlist{
+    width:60px;
+   /* background-color: deeppink; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#watchlist{
+    color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.45px;
+}
+
+.share{
+    width:35px;
+    /* background-color: aquamarine; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#share{
+    color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.45px;
+}
+.image:hover{
+    scale:1.2;
+}
+
+.secondBox{
+    width:50vw;
+    display:flex;
+    flex-direction: row;
+    color: #727171;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+
+/* background-color: wheat; */
+gap:10px;
+}
+
+#popularity{
+    /* color: #727171;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; */
+}
+
+.thirdBox{
+    display:flex;
+    flex-direction: row;
+    color:#DA3714;
+    /* background-color: aliceblue; */
+    gap:15px;
+}
+#action,
+#scFiction,
+#drama,
+#suspense{
+    /* background-color: pink; */
+    color: #DA3714;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border:1px solid #DA3714;
+    border-radius:10px;
+    padding:5px;
+}
+
+.image-desc{
+    
+    margin-top:77px;
+}
+
+#image-desc{
+    
+    width: 90vw;
+flex-shrink: 0;
+
+color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+/* padding:20px 100px; */
+
+
+}

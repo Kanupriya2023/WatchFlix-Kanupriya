@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+    margin : 0;
+}
+.layout{
+    width: 100vw;
+    height: auto;
+    background-color: #1A1A1D;
+    display: flex;
+    flex-direction: column;
+    /* padding:3rem ; */
+}
+
+.header {
+    width: 100vw;
+    height: 30px;
+    background-color: #1A1A1D;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-title{
+    height: 90%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#watch{
+    color: #FFF;
+font-family: Oswald;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+#flix{
+    color: #DA3714;
+font-family: Oswald;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+.header-menu{
+    height:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#movies{
+    color: #FFF;
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px;
+}
+
+#tvSeries{
+    color: #FFF;
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+#documentary{
+    color: #FFF;
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+#category{
+    color: #FFF;
+font-family: Poppins;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+.header-end{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#signup{
+    color: #FFF;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 0;
+}
+.header-drawer{
+     display: none;   
+}
+@media screen and (max-width: 600px){
+    .header-menu{
+        display: none;
+    }
+    .header-end{
+        display: none;
+    }
+    .header-drawer{
+        display: block;
+    }
+}
+
+.drawer{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+
+.footer{
+    width: 100vw;
+    height: 100px;
+    background-color: #1A1A1D;
+    /* position:fixed; 
+    bottom: 0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
+    
+}
+
+.footer-title{
+    height: 90%;
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+#watch{
+    color: #FFF;
+font-family: Oswald;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+#flix{
+    color: #DA3714;
+font-family: Oswald;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+.connectUs,
+.manage,
+.info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:2px;
+}
+
+#connectUs,
+#manage,
+#info
+{
+    color: #da3714;
+font-family: Overpass;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding:0;
+margin:0;
+}
+
+#about,
+#contactus,
+#helpcenter,
+#career{
+    color: #FFF;
+font-family: Overpass;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+#buy,
+#account,
+#manaccount,
+#redeem{
+    color: #FFF;
+font-family: Overpass;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+
+#privacy,
+#tnc,
+#cookies,
+#faq{
+    color: #FFF;
+font-family: Overpass;
+font-size: 6px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}

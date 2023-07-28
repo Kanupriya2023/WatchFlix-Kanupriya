@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.mainContent{
+    width: 100vw;
+    overflow:scroll;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative; /* positioned relative to itself or normal flow */
+    top:30px;
+    background-color: #1a1a1d;
+    /* padding:5px 5px 5px 5px; */
+    box-sizing: border-box;
+}
+
+.carousel-cover{
+   width:90%;
+   position: relative;
+}
+
+
+.box{
+    width: 100%;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.heading{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+/* line-height: normal; */
+}
+
+.highlight-img{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.imageText{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    position:absolute;
+    top:5.3vh;
+    left:6vw;
+    
+    align-items: flex-start;
+}
+
+.imgTitle{
+    color: #FFF;
+    width: 75vw;
+font-family: Oswald;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.imgDesc{
+    color: #FFF;
+    width: 45vw;
+    height: auto;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 24px; 133.333% */
+letter-spacing: 0.54px;
+text-align: left;
+/* overflow: hidden; */
+display: -webkit-box;
+/* -webkit-line-clamp: 6; */
+-webkit-box-orient: vertical;
+}
+
+.Boxx{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 250px;
+    gap:5px;
+height: 25px;
+flex-shrink: 0;
+align-items: center;
+}
+
+.watchButton{
+border:none;
+height: 25px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 2px;
+padding-right:3px;
+border-radius: 27px;
+background: #DA3714;
+color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+/* line-height: normal; */
+letter-spacing: 0.54px;
+}
+.watchlist{
+    width:60px;
+   /* background-color: deeppink; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#watchlist{
+    color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.45px;
+}
+
+.share{
+    width:35px;
+    /* background-color: aquamarine; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#share{
+    color: #FFF;
+font-family: Overpass;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.45px;
+}
+.image:hover{
+    scale:1.2;
+}
